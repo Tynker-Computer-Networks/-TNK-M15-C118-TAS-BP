@@ -31,7 +31,6 @@ class EmailSenderApp():
             smtp_server.starttls()
             smtp_server.login(sender_email, sender_password)
 
-            # Create and send the email
             message = MIMEMultipart()
             message["From"] = sender_email
             message["To"] = recipient_email
