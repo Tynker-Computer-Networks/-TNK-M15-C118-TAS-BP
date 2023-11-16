@@ -39,13 +39,10 @@ class EmailSenderApp(Tk):
         self.message_body_text.grid(
             column=1, row=4, padx=10, pady=5, columnspan=2)
 
-        # Create a Button with the Attach File.
-
-        # Create a Label with the Attached Files.
 
         # Call send_single_email function on button click
         self.send_button = Button(self.frame, text="Send Email")
-        self.send_button.grid(column=1, row=9, padx=10, pady=10, columnspan=2)
+        self.send_button.grid(column=1, row=5, padx=10, pady=10, columnspan=2)
 
     def send_single_email(self):
         # Replace input with tkinter label values
