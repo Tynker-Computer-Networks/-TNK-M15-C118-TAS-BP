@@ -45,7 +45,7 @@ class EmailSenderApp(Tk):
 
         # Call send_email() function on button click
         self.send_button = Button(self.frame, text="Send Email")
-        self.send_button.grid(column=1, row=9, padx=10, pady=10, columnspan=2)
+        self.send_button.grid(column=1, row=5, padx=10, pady=10, columnspan=2)
 
     # Define send_email() function
 
